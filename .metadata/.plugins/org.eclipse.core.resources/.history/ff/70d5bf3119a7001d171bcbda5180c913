@@ -1,0 +1,16 @@
+package com.gestion.cinema.service;
+
+import java.util.List;
+
+import com.gestion.cinema.entities.Acteur;
+import com.gestion.cinema.entities.Film;
+
+public interface IServiceActeur {    
+	
+	public Acteur createActeur(Film film); 
+	public List<Acteur> getAllActeurs();  
+	
+  
+
+
+}
